@@ -36,6 +36,7 @@ export const renderIndicator = (
   for (let i = 0; i < count; i++) {
     indicators.push(
       <View
+        key = {i.toString()}
         style={[
           styles.indicator,
           indicatorStyle,

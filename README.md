@@ -111,6 +111,7 @@ npm i react-native-flatlist-slider
 | indicatorActiveColor    | String       | '#3498db'    | Active indicator color                             |
 | indicatorInActiveColor  | String       | '#bdc3c7'    | Inactive indicator color                           |
 | indicatorActiveWidth    | Number       | 6            | Active Indicator Width                             |
+| removeClippedSubviews   | Boolean      | true         | Flatlist prop for performance                      |
 | animation               | Boolean      | true         | Animate indicator change                           |\
 
 ### Props passed to Custom Component
